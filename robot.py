@@ -1,2 +1,4 @@
 robot_price = 900
-print(robot_price * 2 * 1.25 + 100 * 1.06)
+robot_amount = 2
+robot_tax = 1.25
+print(robot_price * robot_amount * robot_tax + 100 * 1.06)
