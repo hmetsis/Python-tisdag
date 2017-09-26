@@ -1,3 +1,4 @@
+# Variables
 robot_price = 900
 robot_amount = 2
 robot_tax = 1.25
@@ -6,14 +7,13 @@ book_amount = 1
 book_tax = 1.06
 print(robot_price * robot_amount * robot_tax + book_price * book_tax)
 
-
-
+# Dictionary
 robot = {"price": 900, "count": 2, "tax": 1.25}
 book = {"price": 100, "count": 1, "tax": 1.06}
 print(robot["price"]*robot["count"]*robot["tax"]+book["price"]*book["count"]*book["tax"])
 
 
-
+# Class
 class Product:
 	price = 0
 	count = 0
